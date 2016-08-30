@@ -1,0 +1,15 @@
+{
+  "name": "psr7-server-request-factory",
+  "license": "proprietary",
+  "type": "library",
+  "autoload": {
+      "psr-4": {
+          "Mashbo\\Components\\Psr7ServerRequestFactory\\": "src/"
+      }
+  },
+  "require": {
+      "psr/http-message": "^1.0"
+  },
+  "repositories": [
+  ]
+}
