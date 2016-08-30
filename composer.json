@@ -1,5 +1,5 @@
 {
-  "name": "psr7-server-request-factory",
+  "name": "mashbo/psr7-server-request-factory",
   "license": "proprietary",
   "type": "library",
   "autoload": {
