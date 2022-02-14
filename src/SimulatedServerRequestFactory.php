@@ -2,11 +2,11 @@
 
 namespace Mashbo\Components\Psr7ServerRequestFactory;
 
+use Laminas\Diactoros\ServerRequest;
+use Laminas\Diactoros\UploadedFile;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Symfony\Component\HttpFoundation\Request;
-use Zend\Diactoros\ServerRequest;
-use Zend\Diactoros\UploadedFile;
 
 /**
  * Create a ServerRequestInterface to include the normal superglobals
